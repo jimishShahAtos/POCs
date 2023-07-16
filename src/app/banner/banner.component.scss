@@ -1,0 +1,29 @@
+.carousel-item{
+    width: 1440px;
+    height: 528px;
+}
+.carousel-indicators{
+    bottom: 5rem !important;
+}
+.carousel-indicators [data-bs-target] {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    height:6px;
+    width: 6px;
+}
+.carousel-indicators .carausel{
+    background: #d9d9d9 !important;
+}
+.carousel-indicators .carausel.active{
+    background: #ff6d43 !important;
+}
+.rounded-circle{
+    border-radius: 100% !important;
+}
+.carousel-caption{
+    left: 2rem !important;
+    top: 5rem !important;
+    text-align: left !important;
+}
+

@@ -1,0 +1,47 @@
+.nav-link, .nav-pills .nav-link.active{
+    background: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-pills .nav-link.active{
+    border-bottom: 3px solid #FF6D43;
+    color: #FF6D43;
+}
+.nav-pills, .menuSection{
+    border-bottom: 1px solid #000;
+}
+.menuSection{
+    margin-top: 0.5em;
+}
+
+.nav-link label{
+    cursor: pointer;
+}
+.w-90{
+    width: 85%;
+}
+.w-10{
+    width: 15%;
+}
+.list{
+    background: url("../../../assets/images/icon-list-bulleted.svg") no-repeat 0;
+    background-size: cover;
+    height: 38px; 
+    width: 38px;
+}
+.list a{
+    height: 38px; 
+    width: 38px;
+}
+.grid{
+    background: url("../../../assets/images/iconGrid.svg") no-repeat 0 0;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    margin-top: 0.4em;
+}
+.grid a{
+    height: 25px;
+    width: 25px;
+}
