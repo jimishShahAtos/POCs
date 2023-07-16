@@ -1,0 +1,20 @@
+.searchBar{
+    background: #ECECED;
+    height: 153px;
+    top: 35em;
+    margin: 0 20% 0 13%;
+}
+
+.searchBar .input-group-lg>.form-control{
+    margin-right: 1.25em;
+    padding:0.80rem 1rem !important;
+}
+.search{
+    background: url("../../assets/images/iconSearch.png") no-repeat 16px;
+    background-size: cover 30px 30px;
+    width: 30px;
+}
+.btn-action{
+    background: #002D3C;
+    width: 149px;
+}

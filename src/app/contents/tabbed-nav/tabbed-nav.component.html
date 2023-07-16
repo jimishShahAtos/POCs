@@ -1,0 +1,32 @@
+<div class="w-100">
+    <nav class="nav nav-pills float-start w-90" id="pills-tab" role="tablist">
+        <a *ngFor="let list of navLists; let i = index" [class]="list.isClass" [id]="list.isId" data-bs-toggle="pill"
+            [href]="list.isLink" role="tab" aria-controls="lists.isAreaControls" aria-selected="true">{{list.isName}}
+            <label>({{list.isLabel}})</label></a>
+    </nav>
+    <div class="float-end text-end px-4 menuSection w-10">
+        <ul class="nav">
+            <li class="nav-item iconNav list mx-3 px-3">
+              <a class="nav-link d-block active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item iconNav grid mx-3">
+              <a class="nav-link" href="#"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Contents Goeas Here -->
+<div class="tab-content px-4 py-5" id="pills-tabContent">
+    <div class="tab-pane fade active show" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">Content One</div>
+
+    <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">Content Two</div>
+
+    <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">Content Three</div>
+
+    <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">Content Four</div>
+
+    <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">Content Five</div>
+
+    <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-five-tab">Content Six</div>
+</div>
